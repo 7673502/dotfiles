@@ -1,22 +1,22 @@
 return {
-  {
-    "williamboman/mason.nvim",
-    config = true,
-  },
-
-  {
-    "williamboman/mason-lspconfig.nvim",
-  },
-
-  {
+  "mason-org/mason-lspconfig.nvim",
+  dependencies = {
+    { "mason-org/mason.nvim", opts = {} },
     "neovim/nvim-lspconfig",
-    config = function()
-      require("mason-lspconfig").setup({
-        ensure_installed = { "pyright" },
-      })
-
-      local lspconfig = require("lspconfig")
-      lspconfig.pyright.setup({})
-    end,
   },
+  opts = {
+    ensure_installed = {
+      "basedpyright", -- Python
+      "clangd", -- C/C++
+      "cssls", -- CSS
+      "html", -- HTML
+      "jdtls", -- Java
+      "jsonls", -- JSON
+      "lua_ls", -- Lua
+      "marksman", -- Markdown
+      "rust_analyzer", -- Rust
+      "ts_ls", -- TypeScript/JavaScript
+    }
+  }
 }
+
