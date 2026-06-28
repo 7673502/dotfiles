@@ -6,7 +6,7 @@
 
 ## Setup
 - Install ghostty and neovim.
-- Install the [JetBrainsMono Nerd Font](https://www.nerdfonts.com/font-downloads).
+- Install the [Caskaydia Cove Nerd Font](https://www.nerdfonts.com/font-downloads).
 - Run the following to create a symlink to the config folder:
 ```bash
 ln -sf ~/dotfiles/nvim ~/.config/nvim
