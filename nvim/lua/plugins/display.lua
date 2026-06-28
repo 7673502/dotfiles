@@ -7,9 +7,10 @@ return {
 		priority = 1000,
 		config = function()
 			require("rose-pine").setup({
-				background = {
-					light = "dawn",
-					dark = "moon",
+				dark_variant = "moon",
+				styles = {
+					bold = false,
+					italic = false,
 				},
 			})
 			vim.cmd([[colorscheme rose-pine]])
