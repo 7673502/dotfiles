@@ -20,3 +20,6 @@ vim.api.nvim_create_autocmd("FileType", {
 -- Display
 vim.opt.number = true
 vim.o.splitright = true
+
+-- Clipboard
+vim.opt.clipboard = "unnamedplus"
