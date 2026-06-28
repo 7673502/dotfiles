@@ -11,3 +11,7 @@
 ln -s ~/dotfiles/nvim ~/.config/nvim
 ln -s ~/dotfiles/ghostty ~/.config/ghostty
 ```
+- You will also need to install fzf and ripgrep
+```bash
+brew install fzf ripgrep
+```
