@@ -1,0 +1,7 @@
+font-family = JetBrainsMono Nerd Font
+font-size = 18
+
+theme = light:Catppuccin Latte, dark:Catppuccin Mocha
+
+window-padding-x = 10
+window-padding-y = 10
