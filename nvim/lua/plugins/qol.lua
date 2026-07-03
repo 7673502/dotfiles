@@ -24,4 +24,9 @@ return {
 			require("mini.pairs").setup()
 		end,
 	},
+	{
+		"kamegoro/tobira.nvim",
+		event = "VeryLazy",
+		opts = {},
+	},
 }
