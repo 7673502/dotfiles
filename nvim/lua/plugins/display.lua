@@ -17,5 +17,4 @@ return {
 		end,
 	},
 	{ "f-person/auto-dark-mode.nvim", opts = {} },
-	{ "nvim-lualine/lualine.nvim", opts = { theme = "rose-pine" } },
 }
