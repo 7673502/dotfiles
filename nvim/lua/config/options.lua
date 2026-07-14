@@ -2,9 +2,6 @@
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 
--- Make it so that underscores are not considered part of a word
-vim.opt.iskeyword:remove("_")
-
 -- Spacing
 -- -- Global defaults
 vim.opt.expandtab = true
