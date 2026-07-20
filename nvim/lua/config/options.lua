@@ -19,4 +19,5 @@ vim.api.nvim_create_autocmd("FileType", {
 
 -- Display
 vim.opt.number = true
+vim.opt.relativenumber = true
 vim.o.splitright = true
